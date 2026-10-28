@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Page tests (builds the official, self-hosted and bare editions)
+        run: node --test test/handbook.test.mjs
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install numpy and CPU-only PyTorch
+        run: |
+          pip install numpy
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Run every published code snippet
+        run: python test/snippets.py

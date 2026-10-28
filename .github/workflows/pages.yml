@@ -1,0 +1,42 @@
+# Publishes the handbook to GitHub Pages on every push to main.
+# In a fork: Settings → Pages → Build and deployment → Source: "GitHub Actions", then push or run this
+# workflow by hand (Actions → Deploy to GitHub Pages → Run workflow).
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - id: pages
+        uses: actions/configure-pages@v5
+      - run: node --test test/handbook.test.mjs
+      - name: Build for this Pages address
+        run: node build.mjs --out dist
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4

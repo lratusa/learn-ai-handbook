@@ -1,0 +1,27 @@
+{
+  "name": "learn-ai-handbook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A free route into AI for engineers: Stanford open courses on Bilibili and YouTube, in Chinese, English, Japanese and French.",
+  "type": "module",
+  "license": "MIT",
+  "repository": "github:lratusa/learn-ai-handbook",
+  "homepage": "https://www.gitechdesign.com/learn-ai/",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "build:official": "node build.mjs --config config/gitechdesign.mjs",
+    "test": "node --test test/handbook.test.mjs",
+    "test:snippets": "python test/snippets.py",
+    "serve": "node tools/serve.mjs dist 8080",
+    "check:links": "node tools/check-links.mjs dist",
+    "check:bili": "node tools/check-bili.mjs",
+    "shoot": "node tools/shoot.mjs",
+    "verify": "node tools/verify-live.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.1.0"
+  }
+}
