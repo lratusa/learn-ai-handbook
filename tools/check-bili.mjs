@@ -48,7 +48,7 @@ function readPage() {
   const meta = (sel) => document.querySelector(sel)?.getAttribute("content") || null;
   const text = (sel) => document.querySelector(sel)?.textContent.trim() || null;
   const desc = meta('meta[name="description"]') || "";
-  const pod = (document.body ? document.body.innerText : "").match(/\((\d+)\/(\d+)\)/);
+  const pod = (document.body ? document.body.innerText : "").match(/[（(](\d+)\/(\d+)[）)]/); // "(3/11)" multi-part or "（3/11）" collection
   return {
     url: location.href,
     docTitle: document.title,

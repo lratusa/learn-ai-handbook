@@ -149,7 +149,7 @@ export const COURSES = {
   cs336: {
     code: "CS336", name: "Language Modeling from Scratch", org: "Stanford", by: "Percy Liang, Tatsunori Hashimoto", term: "Spring 2025", hours: 22,
     bili: [
-      { url: BV("BV1zW5yz1Eom"), title: "斯坦福大学《从零开始的语言模型|CS336 Language Modeling from Scratch Spring 2025》中英字幕", up: "GPT中英字幕课程资源", parts: 16, subs: "mt" },
+      { url: BV("BV1zW5yz1Eom"), title: "斯坦福大学《从零开始的语言模型|CS336 Language Modeling from Scratch Spring 2025》中英字幕(ds-R1)", up: "GPT中英字幕课程资源", parts: 16, subs: "mt" },
       { url: BV("BV1ZNVAzXEtP"), title: "[自动字幕] 斯坦福 CS336：从零开始构建语言模型 | 2025 年春季", up: "AInsight", parts: 17, subs: "mt" },
     ],
     biliSearch: "CS336 中英字幕",
@@ -219,7 +219,7 @@ export const COURSES = {
   brunton: {
     code: "PIML", name: "Physics-Informed Machine Learning", org: "University of Washington", by: "Steve Brunton", term: "", hours: 0,
     bili: [
-      { url: BV("BV1wsqwBvEHc"), title: "【Steve Brunton】物理信息机器学习(PIML)全套教程：AI for Science 必修课", up: "赛博门外憨", parts: 24 },
+      { url: BV("BV1wsqwBvEHc"), title: "【Steve Brunton】物理信息机器学习(PIML)全套教程：AI for Science 必修课 | 稀疏动力学/几何深度学习/神经微分方程", up: "赛博门外憨", parts: 24 },
     ],
     biliSearch: "Steve Brunton 物理信息机器学习",
     yt: { url: YT("PLMrJAkhIeNNQ0BaKuBKY43k4xMo6NSbBa"), title: "Physics Informed Machine Learning", channel: "Steve Brunton", n: 24 },

@@ -197,7 +197,7 @@ export default {
     },
     {
       short: "Agent 与 Harness",
-      mapLine: "LLM Agents + CS329A：工具、循环、评测",
+      mapLine: "LLM Agents + CS329Z：工具、循环、评测",
       weeks: "4–6 周",
       title: "Agent 与 Harness：自己写一个能干活的 agent",
       goal: "不依赖框架，写出一个能调用工具、能多步完成任务的 agent；再给它加上权限、上下文管理、日志和评测，搭成一个最小的 harness。",

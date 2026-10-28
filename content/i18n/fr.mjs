@@ -197,7 +197,7 @@ export default {
     },
     {
       short: "Agents et harness",
-      mapLine: "LLM Agents + CS329A : outils, boucles, évaluation",
+      mapLine: "LLM Agents + CS329Z : outils, boucles, évaluation",
       weeks: "4 à 6 semaines",
       title: "Agents et harness : écrire un agent qui fait vraiment le travail",
       goal: "Sans framework, écrire un agent qui appelle des outils et accomplit des tâches en plusieurs étapes ; puis lui ajouter permissions, gestion du contexte, journalisation et évaluation pour en faire un harness minimal.",
