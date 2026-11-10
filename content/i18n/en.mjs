@@ -406,7 +406,7 @@ export default {
     ],
     notes: [
       "All course content is copyright Stanford University and the respective authors and institutions. We only index public links and host no videos; Bilibili links are third-party reposts. For takedown requests or dead links, write to <a href=\"mailto:raymond@gitechdesign.com\">raymond@gitechdesign.com</a> and we'll act promptly.",
-      "Compiled by GiTech Design (Beijing). Free, no ads. Links last checked {date}.",
+      "Compiled by GiTech Design (Gi (Beijing) Tech Design Ltd.), a Beijing technology company applying AI to ecology, healthcare and green building engineering (<a href=\"/en/company/\">company profile</a>). Free, no ads. Links last checked {date}.",
     ],
     source: "This handbook is open source: <a href=\"{repo}\">{repoName}</a>. Found a dead link or a course worth adding? Open an issue or a pull request on GitHub, or deploy your own copy.",
     mirror: "This is a self-hosted copy. The latest official edition is at <a href=\"{official}\">{officialName}</a>.",

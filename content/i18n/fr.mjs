@@ -406,7 +406,7 @@ export default {
     ],
     notes: [
       "Les droits sur les contenus des cours appartiennent à l’université Stanford ainsi qu’à leurs auteurs et institutions respectifs. Nous ne faisons que référencer des liens publics et n’hébergeons aucune vidéo ; les liens Bilibili renvoient à des republications de tiers. Pour toute demande de retrait ou tout lien mort, écrivez à <a href=\"mailto:raymond@gitechdesign.com\">raymond@gitechdesign.com</a> et nous agirons rapidement.",
-      "Compilé par GiTech Design (Pékin). Gratuit, sans publicité. Dernière vérification des liens : {date}.",
+      "Compilé par GiTech Design (Gi (Beijing) Tech Design Ltd.), entreprise technologique de Pékin qui applique l’IA à l’écologie, à la santé et à l’ingénierie du bâtiment vert (<a href=\"/fr/company/\">présentation de l’entreprise</a>). Gratuit, sans publicité. Dernière vérification des liens : {date}.",
     ],
     source: "Ce guide est open source : <a href=\"{repo}\">{repoName}</a>. Un lien mort, un cours à ajouter ? Ouvrez une issue ou une pull request sur GitHub, ou déployez votre propre copie.",
     mirror: "Ceci est une copie auto-hébergée. La dernière édition officielle se trouve sur <a href=\"{official}\">{officialName}</a>.",

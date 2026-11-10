@@ -406,7 +406,7 @@ export default {
     ],
     notes: [
       "講座の内容の著作権は、スタンフォード大学および各著者・各機関に帰属します。本ページは公開リンクの索引を提供するのみで、動画は一切ホストしていません。bilibili のリンクは第三者による転載です。削除のご依頼やリンク切れのご連絡は <a href=\"mailto:raymond@gitechdesign.com\">raymond@gitechdesign.com</a> までお送りください。速やかに対応します。",
-      "際和（北京）科技有限責任公司 編。無料・広告なし。リンク最終確認 {date}。",
+      "際和（北京）科技有限責任公司（GiTech Design）編。北京を拠点に、AI を生態・環境、医療・健康、グリーン建築エンジニアリングに応用するテクノロジー企業です（<a href=\"/ja/company/\">会社概要</a>）。無料・広告なし。リンク最終確認 {date}。",
     ],
     source: "このハンドブックはオープンソースです：<a href=\"{repo}\">{repoName}</a>。リンク切れや追加したい講座があれば、GitHub で issue か pull request をお送りください。手順に沿って自分でデプロイすることもできます。",
     mirror: "これはセルフホストされたコピーです。最新の公式版は <a href=\"{official}\">{officialName}</a> にあります。",

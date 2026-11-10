@@ -405,7 +405,7 @@ export default {
     ],
     notes: [
       "课程版权归斯坦福大学及各原作者、原机构所有。B 站链接为第三方转载，本页只提供索引，不托管、不下载任何视频。如有侵权或链接失效，请联系 <a href=\"mailto:raymond@gitechdesign.com\">raymond@gitechdesign.com</a>，我们会尽快处理。",
-      "本页由际和（北京）科技有限责任公司整理，免费、无广告。链接最后核对于 {date}。",
+      "本页由际和科技（际和（北京）科技有限责任公司）整理，免费、无广告。际和科技是北京的一家技术公司，把人工智能用在生态环保、医疗健康和绿色建筑工程上（<a href=\"/zh/company/\">公司档案</a>）。链接最后核对于 {date}。",
     ],
     source: "本手册是开源项目：<a href=\"{repo}\">{repoName}</a>。发现链接失效、想推荐课程，欢迎在 GitHub 提 issue 或 PR；也可以按说明自己部署一份。",
     mirror: "这是一份自部署的副本，最新的官方版本在 <a href=\"{official}\">{officialName}</a>。",
